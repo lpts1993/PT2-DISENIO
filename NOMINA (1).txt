@@ -1,0 +1,15 @@
+     A*  TABLA: TABLA DE PRODUCTO
+     A*  AUTOR: DOUGLAS ISTURIZ
+     A                                      UNIQUE
+     A          R RNOMINA                   TEXT('REGISTRO NOMINA')
+     A            NOMIDN        15S 0       COLHDG('NUM IDENTIFICACION')
+     A            NOMPNM        30A         COLHDG('PRIMER' 'NOMBRE')
+     A            NOMSNM        30A         COLHDG('SEGUNDO' 'NOMBRE')
+     A            NOMPAP        30A         COLHDG('PRIMER' 'APELLIDO')
+     A            NOMSAP        30A         COLHDG('SEGUNDO' 'APELLIDO')
+     A            NOMSEX         1A         COLHDG('SEXO')
+     A            NOMDPT         3S 0       COLHDG('CODIGO DE' 'DEPARTAMENTO')
+     A            NOMSLR        11S 2       COLHDG('SALARIO A' 'DEVENGAR')
+     A            NOMFRG        30A         COLHDG('FRG ')
+     A* CLAVE PRIMARIA DE NOMINA
+     A          K NOMIDN

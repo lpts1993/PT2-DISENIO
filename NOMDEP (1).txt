@@ -1,0 +1,10 @@
+     A* TABLA DE DEPARTAMENTO
+     A* FECHA CREACION: 30/10/2020
+     A* AUTHOR:
+     A*---------------------------------------------------------------------------------
+     A          R RNOMDEP
+     A            NOMDPT         3S 0       TEXT('NOMBRE DEPARTAMENTO')
+     A                                      COLHDG('NOMBRE DE' 'DEPARTAMENTO')
+     A            NOMDSC        50A         TEXT('DESCRIPCIO DEPARTAMENTO')
+     A                                      COLHDG('DESCRIPCION' 'DEPARTAMENTO')
+     A          K NOMDPT
